@@ -1,13 +1,9 @@
-# Terraform + GitHub Actions for Deployment of resources in AWS
+# Terraform + GitHub Actions for Deployment of resources in AWS (CI/CD Pipeline)
 
 ##  Project Overview
 This project demonstrates how to automate AWS infrastructure deployment using Terraform (Infrastructure as Code) and GitHub Actions (CI/CD automation platform) to create a complete CI/CD pipeline.
 
-It provisions:
-- An S3 bucket
-- A  t3.micro EC2 instance in eu-north-1
-
-The workflow runs automatically when code is pushed to the repository or triggered manually, making it a practical example of Infrastructure as Code (IaC) with CI/CD automation.
+It provisions an S3 bucket and  t3.micro EC2 instance in eu-north-1 with a public ip. The workflow runs automatically when codes are pushed to the repository or triggered manually, making it a practical example of Infrastructure as Code (IaC) with CI/CD automation.
 
 
 ##  What is CI/CD?
@@ -51,7 +47,7 @@ Before running the workflow, add these repository secrets under:
 
 
 ## 📝 How to Trigger the Workflow
-- Push any change to the `main` branch or go to **GitHub Actions tab** → Select the workflow → Click **Run workflow**. 
+- Push any change to the `main` branch or go to GitHub Actions tab, select the workflow and click "Run workflow". 
 
 
 ### Conclusion
